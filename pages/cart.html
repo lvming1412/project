@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="shortcut icon" href="../images/38.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/empty-carts.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/layer/layer.js"></script>
+    <script src="../js/cart.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-con">
+            <div class="log"><img src="../images/41.png" alt=""></div>
+            <div class="title">
+                <h2>我的购物车</h2>
+                <p class="hint">温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</p>
+            </div>
+            <ul>
+                <li class="uname">用户名</li>
+                <li>我的订单</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-con">
+            <div class="list-head">
+                <div class="checkAll"><input type="checkbox" name="all" id="" class="b"><span>全选</span></div>
+                <div class="col-img"></div>
+                <div class="col-name">商品名称</div>
+                <div class="col-price">单价</div>
+                <div class="col-num">数量</div>
+                <div class="col-total">小计</div>
+                <div class="action">操作</div>
+            </div>
+            <div class="empty-carts">
+                <div class="con">
+                    <div class="bj"><img src="../login-images/bj.png" alt=""></div>
+                    <div class="tip">
+                        <h1>您的购物车还是空的!</h1>
+                        <a href="javascript:;" id="goshop">马上去购物</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-con">
+            <div class="list-pay">
+                <div class="left">
+                    <a href="">继续购物</a>
+                    <span class="cart-total">共<i>0</i>件商品,已选择<em>0</em>件</span>
+                </div>
+                <div class="right">
+                    <span class="total-price"><i class="r1">合计:</i><em>?</em><i class="r2">元</i></span>
+                    <a href="../pages/pay.html" class="pay-btn">去结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>在下方进行商品选购购物车添加</h2>
+    <div class="list-menu">
+        <div class="menu-con">
+            <div class="li">
+                <img src="../images/li1.webp" alt="">
+                <div class="title">小米11 Ultra</div>
+                <div class="price">5499元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li2.webp" alt="">
+                <div class="title">Redmi 9A</div>
+                <div class="price">499元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li3.webp" alt="">
+                <div class="title">米家随行便携榨汁杯</div>
+                <div class="price">99元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li4.webp" alt="">
+                <div class="title">Redmi AirDots 3 Pro</div>
+                <div class="price">299元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li5.webp" alt="">
+                <div class="title">小米智能摄像机 云台版2K</div>
+                <div class="price">229元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li6.webp" alt="">
+                <div class="title">黑鲨4 Pro</div>
+                <div class="price">3999元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li7.webp" alt="">
+                <div class="title">小米净水器500G增强版</div>
+                <div class="price">999元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li8.webp" alt="">
+                <div class="title">米家扫拖机器人 2C</div>
+                <div class="price">1299元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li9.webp" alt="">
+                <div class="title">小米小爱音箱 Pro</div>
+                <div class="price">269元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li10.webp" alt="">
+                <div class="title">Redmi K40 游戏增强版</div>
+                <div class="price">1999元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li11.webp" alt="">
+                <div class="title">小米米家智能开关</div>
+                <div class="price">44元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li12.webp" alt="">
+                <div class="title">小米框体旅行箱 20英寸</div>
+                <div class="price">399元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li13.webp" alt="">
+                <div class="title">小米对讲机Lite</div>
+                <div class="price">99元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li14.webp" alt="">
+                <div class="title">小米11 青春版</div>
+                <div class="price">2299元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li15.webp" alt="">
+                <div class="title">小米门窗传感器2</div>
+                <div class="price">39元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li16.webp" alt="">
+                <div class="title">米家智能燃气灶</div>
+                <div class="price">499元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li17.webp" alt="">
+                <div class="title">小米11 Pro</div>
+                <div class="price">4499元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li18.webp" alt="">
+                <div class="title">米家互联网吸油烟机</div>
+                <div class="price">1199元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li19.webp" alt="">
+                <div class="title">米家扫拖一体机器人</div>
+                <div class="price">1199元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+            <div class="li">
+                <img src="../images/li20.webp" alt="">
+                <div class="title">米家智能IH电饭煲 4L</div>
+                <div class="price">399元</div>
+                <div class="btn">添加到购物车</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

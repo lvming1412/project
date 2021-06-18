@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+i,
+em {
+  font-style: normal;
+}
+b,
+strong {
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}

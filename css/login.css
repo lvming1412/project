@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  height: 100vh;
+}
+.left {
+  width: 375px;
+  height: 100vh;
+  float: left;
+}
+.left img {
+  width: 100%;
+  height: 100%;
+}
+.right {
+  height: 100vh;
+  overflow: auto;
+}
+.right .login {
+  height: auto;
+}
+.right .login .header {
+  height: 80px;
+  padding: 20px;
+  box-sizing: border-box;
+  line-height: 40px;
+}
+.right .login .header .a1 {
+  float: left;
+}
+.right .login .header .a1 .title {
+  font-size: 26px;
+  color: #333;
+  font-style: normal;
+}
+.right .login .header .a1 i img {
+  vertical-align: middle;
+  margin-right: 20px;
+  position: relative;
+  top: -5px;
+}
+.right .login .header .a2 {
+  list-style: none;
+  float: right;
+}
+.right .login .header .a2 a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #838383;
+}
+.right .login .header .a2 li {
+  float: left;
+  font-size: 14px;
+  color: #838383;
+  margin: 0 10px;
+}
+.right .login .container {
+  width: 450px;
+  height: 600px;
+  box-sizing: border-box;
+  padding: 40px 45px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 10px #333;
+}
+.right .login .container .nav {
+  width: 360px;
+  height: 40px;
+  font-size: 22px;
+  color: #bbb;
+}
+.right .login .container .nav span {
+  margin-right: 20px;
+}
+.right .login .container .box1 {
+  position: relative;
+  width: 360px;
+  height: 375px;
+  overflow: hidden;
+}
+.right .login .container .box1 .box2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 800px;
+  height: 375px;
+}
+.right .login .container .box1 .box2 > div {
+  float: left;
+  width: 360px;
+  height: 375px;
+}
+.right .login .container .box1 .box2 > div input {
+  width: 354px;
+  height: 60px;
+  outline: none;
+  background: #f9f9f9;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  text-indent: 20px;
+}
+.right .login .container .box1 .box2 > div span {
+  font-size: 12px;
+  color: red;
+  display: none;
+}
+.right .login .container .box1 .box2 > div button {
+  width: 354px;
+  height: 60px;
+  outline: none;
+  background: #fc6700;
+  border-radius: 10px;
+  border: none;
+  margin: 20px 0 10px;
+  color: #fff;
+  font-size: 12px;
+}
+.right .login .container .box1 .box2 .two {
+  font-size: 14px;
+  color: #aaa;
+  text-align: center;
+}
+.right .login .container .box1 .box2 > div .link {
+  width: 356px;
+  height: 35px;
+}
+.right .login .container .box1 .box2 > div .link span {
+  font-size: 17px;
+  color: #ff5c00;
+}
+.right .login .container .box1 .box2 > div .link .b1 {
+  float: left;
+}
+.right .login .container .box1 .box2 > div .link .b2 {
+  float: right;
+}
+.right .login .container .log-title {
+  width: 360px;
+  height: 40px;
+  color: #aaa;
+  font-size: 17px;
+  text-align: center;
+}
+.right .login .container .sns {
+  width: 360px;
+  height: 50px;
+}
+.right .login .container .sns .c {
+  margin: 0 auto;
+  width: 300px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+.right .login .container .sns .path {
+  width: 46px;
+  height: 46px;
+  float: left;
+  margin-right: 18px;
+}
+.right .login .container .sns .path img {
+  width: 46px;
+  height: 46px;
+}
+.right .login .footer {
+  height: 18px;
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 80px;
+}
+.on {
+  border-bottom: 3px solid #ff5c00;
+}

@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f5f5f5;
+}
+.header {
+  height: 102px;
+  border-bottom: 3px solid #ff6700;
+  background: #fff;
+}
+.header-con {
+  width: 1226px;
+  height: 102px;
+  margin: 0 auto;
+  padding: 27px 0;
+  box-sizing: border-box;
+}
+.header-con .log {
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin-right: 20px;
+}
+.header-con .log img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.header-con .title {
+  width: 491px;
+  height: 48px;
+  float: left;
+}
+.header-con .title h2 {
+  float: left;
+  font-size: 28px;
+  color: #424242;
+  font-weight: 400;
+}
+.header-con .title p {
+  float: left;
+  color: #757575;
+  font-size: 12px;
+  height: 48px;
+  line-height: 48px;
+  margin-left: 15px;
+}
+.header-con ul {
+  width: 200px;
+  height: 48px;
+  float: right;
+  list-style: none;
+}
+.header-con ul li {
+  float: left;
+  color: #757575;
+  font-size: 12px;
+  width: 90px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+}
+.header-con ul .uname {
+  color: #ff6700;
+}
+
+.main {
+  height: auto;
+}
+.main-con {
+  width: 1226px;
+  height: auto;
+  margin: 0 auto;
+  background: #fff;
+}
+.main-con .list-head {
+  width: 1226px;
+  height: 70px;
+  box-sizing: border-box;
+  padding: 0 26px;
+  color: #424242;
+  font-size: 14px;
+  line-height: 70px;
+  border-bottom: 2px solid #ccc;
+}
+.main-con .list-head .checkAll {
+  width: 110px;
+  height: 70px;
+  float: left;
+}
+.main-con .list-head .checkAll span {
+  margin-left: 20px;
+}
+.main-con .list-head .col-img {
+  width: 120px;
+  height: 70px;
+  float: left;
+}
+.main-con .list-head .col-name {
+  width: 350px;
+  height: 70px;
+  float: left;
+}
+.main-con .list-head .col-price {
+  width: 158px;
+  height: 70px;
+  float: left;
+}
+.main-con .list-head .col-num {
+  width: 150px;
+  height: 70px;
+  float: left;
+}
+.main-con .list-head .col-total {
+  width: 200px;
+  height: 70px;
+  float: left;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+.main-con .list-head .action {
+  width: 80px;
+  height: 70px;
+  float: left;
+}
+.main-con .list-box {
+  height: 100px;
+  padding: 7px 26px;
+  box-sizing: border-box;
+  line-height: 86px;
+  color: #757575;
+  border-bottom: 1px solid #ccc;
+}
+.main-con .list-box .col-img img {
+  width: 86px;
+  height: 86px;
+}
+.main-con .list-box > div {
+  float: left;
+}
+.main-con .list-box .check {
+  width: 110px;
+  height: 86px;
+}
+.main-con .list-box .col-img {
+  width: 120px;
+  height: 86px;
+}
+.main-con .list-box .col-name {
+  width: 350px;
+  height: 86px;
+}
+.main-con .list-box .col-price {
+  width: 158px;
+  height: 86px;
+}
+.main-con .list-box .col-num {
+  width: 150px;
+  height: 86px;
+  padding: 22px 0;
+  box-sizing: border-box;
+}
+.main-con .list-box .col-num a {
+  text-decoration: none;
+  color: #757575;
+  font-size: 20px;
+  width: 38px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.main-con .list-box .col-num input {
+  width: 60px;
+  height: 40px;
+  outline: none;
+  float: left;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+}
+.main-con .list-box .col-total {
+  width: 200px;
+  height: 86px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  color: #ff6700;
+}
+.main-con .list-box .action {
+  width: 80px;
+  height: 86px;
+}
+.main-con .list-box .action img {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.main-con .list-box .action img:hover {
+  background: #ff6700;
+}
+.footer {
+  height: 50px;
+  margin-top: 30px;
+}
+.footer-con {
+  width: 1226px;
+  height: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+.footer-con .list-pay {
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+.footer-con .list-pay .left {
+  width: 278px;
+  height: 50px;
+  float: left;
+  font-size: 14px;
+  color: #757575;
+  box-sizing: border-box;
+  padding: 15px 0;
+}
+.footer-con .list-pay .left a {
+  font-size: 14px;
+  color: #757575;
+  text-decoration: none;
+}
+.footer-con .list-pay .left span {
+  margin-left: 20px;
+  display: inline-block;
+  height: 20px;
+}
+.footer-con .list-pay .left span i {
+  font-style: normal;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin: 0 10px;
+}
+.footer-con .list-pay .left span em {
+  font-style: normal;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin: 0 10px;
+}
+.footer-con .list-pay .right {
+  width: 370px;
+  height: 50px;
+  float: right;
+  font-size: 14px;
+  color: #ff6700;
+}
+.footer-con .list-pay .right .total-price em {
+  display: inline-block;
+  text-align: center;
+  font-style: normal;
+  font-size: 18px;
+  height: #ff6700;
+  width: 60px;
+  height: 50px;
+}
+.footer-con .list-pay .right i {
+  font-style: normal;
+  margin: 0 10px;
+}
+
+.footer-con .list-pay .right .pay-btn {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  font-size: 18px;
+  background: #ff6700;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
+
+/*高亮样式*/
+.on {
+  background: #b0b0b0;
+}

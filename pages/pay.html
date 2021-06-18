@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支付</title>
+    <link rel="shortcut icon" href="../images/38.ico" type="image/x-icon">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/layer/layer.js"></script>
+</head>
+
+<body>
+    <script>
+        layer.alert('支付成功', {
+            time: 5 * 1000
+            , success: function (layero, index) {
+                var timeNum = this.time / 1000, setText = function (start) {
+                    layer.title((start ? timeNum : --timeNum) + ' 秒后关闭', index);
+                };
+                setText(!0);
+                this.timer = setInterval(setText, 1000);
+                if (timeNum <= 0) clearInterval(this.timer);
+            }
+            , end: function () {
+                clearInterval(this.timer);
+                window.location.href = '../pages/index.html';
+            }
+        });
+    </script>
+
+</body>
+
+</html>
